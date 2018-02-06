@@ -1,0 +1,3 @@
+export const ActionTypes = {
+  RECEIVE_DASHBOARD_DATA: 'RECEIVE_DASHBOARD_DATA'
+};

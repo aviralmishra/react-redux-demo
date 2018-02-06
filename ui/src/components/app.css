@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import './reset.css';
+
+html,
+body {
+  background: hsl(0, 0%, 90%);
+  line-height: 1.5;
+  font: 1em 'Roboto', sans-serif;
+}
+
+.centered {
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+@import './common/header.css';
+@import './common/footer.css';
+@import './dashboard/dashboard.css';
